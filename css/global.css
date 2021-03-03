@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Alice', serif;
+}
+
+.horizontal-line {
+    width:1260px;
+    max-width:90%;
+    border-width: 3px;
+    border-color: rgb(80, 50, 5);
+    border-style: solid;
+    color: rgb(80, 50, 5);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding: 10px;
+    text-align: right;
+    font-style:italic;
+    color: white;
+    line-height: 1.2;
+    background-image: linear-gradient(rgb(74,39,7),rgb(5,1,0));
+}
+
+#about-us {
+    padding-top: 105px;
+    margin-top: -105px;
+}
+

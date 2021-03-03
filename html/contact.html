@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flying Cafe - the best place for friend's</title>
+    <meta name="description" content="Welcome to the best places for meetings!">
+    <meta charset="utf-8">
+    </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main-banner.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main-navigation.css" type="text/css"/>
+    <link rel="stylesheet" href="/css/contact-form.css" type="text/css"/>
+
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="index.html" class="main-navigation__logo-link">
+                    <img src="/images/logo.svg" class="main-navigation__logo-image">
+                    Flying Cafe
+                </a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="index.html" class="main-navigation__link">
+                        Home
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="whats-new.html" class="main-navigation__link">
+                        What's new
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="calculator.html" class="main-navigation__link">
+                        Calculator
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="gallery.html" class="main-navigation__link">
+                        Gallery
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="contact.html" class="main-navigation__link">
+                        Contact
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://instagram.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/instagram.svg" alt="Instagram" class="main-navigation__social-icon">
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://facebook.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/facebook.svg" alt="Facebook" class="main-navigation__social-icon">
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="/images/menu.svg" alt="Otwórz/zamknij nawigację" class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+
+    <section class="main-banner">
+        <div class="main-banner__canvas main-banner__canvas--contact">
+            <div class="address">
+                <h2 class="contact-header">Address</h2>
+                <p>Flying cafe </br> aleja Adama Mickiewicza 30 </br> 30-059 Kraków</p>
+                <h2 class="contact-header map">How to go?</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5960.731892144917!2d19.91150636866935!3d50.06649111392692!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb20c8dba21b317d1!2sAkademia%20G%C3%B3rniczo-Hutnicza%20im.%20Stanis%C5%82awa%20Staszica%20w%20Krakowie!5e0!3m2!1spl!2spl!4v1614722583336!5m2!1spl!2spl" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <form class = "contact-form">
+                <h2 class="contact-header">Contact us</h2>
+                <div class="contact-form__info">
+                    <div class="contact-form__info-item">
+                        <img src="/images/email.png" alt="Email" class="contact-form__info-icon">
+                        <a href="mailto:contact@flyingcafe.com" class="contact-form__info-link">contact@flyingcafe.com</a>
+                    </div>
+                    <div class="contact-form__info-item">
+                        <img src="/images/phone.png" alt="Phone number" class="contact-form__info-icon">
+                        <a href="tel:680224567" class="contact-form__info-link">+48 680 224 567</a>
+                    </div>
+                </div>
+                <p class="contact-form__header">If you didn't find enough information, please fill in the form below and send us a message.</p>
+                <div class="contact-form__fields">
+                    <input name="name" class="contact-form__field" placeholder="Name" required>
+                    <input name="email" type="email" class="contact-form__field" placeholder="Email" required>
+                    <textarea name="content"  class="contact-form__field area" placeholder="Message" rows="8" required></textarea>
+                </div>
+                <button class=contact-form__submit-button>Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        Copyright by Katarzyna Kowalczyk, 2020r </br>
+        Email: kakowalczyk07@gmail.com </footer>
+        
+    <script src="/js/main-navigation.js"></script>
+
+</body>
+
+</html>

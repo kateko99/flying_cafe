@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flying Cafe - the best place for friend's</title>
+    <meta name="description" content="Welcome to the best places for meetings!">
+    <meta charset="utf-8">
+    </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main-banner.css" type="text/css" />
+    <link rel="stylesheet" href="/css/container.css" type="text/css" />
+    <link rel="stylesheet" href="/css/about-us.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main-navigation.css" type="text/css" />
+    <link rel="stylesheet" href="/css/news-section.css" type="text/css" />
+    <link rel="stylesheet" href="/css/calculator.css" type="text/css" />
+
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <div class="main-navigation__inner">
+            <div class="main-navigation__logo">
+                <a href="index.html" class="main-navigation__logo-link">
+                    <img src="/images/logo.svg" class="main-navigation__logo-image">
+                    Flying Cafe
+                </a>
+            </div>
+            <ul class="main-navigation__menu js-main-navigation__menu">
+                <li class="main-navigation__menu-item">
+                    <a href="index.html" class="main-navigation__link">
+                        Home
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="whats-new.html" class="main-navigation__link">
+                        What's new
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="calculator.html" class="main-navigation__link">
+                        Calculator
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="gallery.html" class="main-navigation__link">
+                        Gallery
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="contact.html" class="main-navigation__link">
+                        Contact
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://instagram.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/instagram.svg" alt="Instagram" class="main-navigation__social-icon">
+                    </a>
+                </li>
+                <li class="main-navigation__menu-item">
+                    <a href="https://facebook.com" target="_blank" class="main-navigation__link">
+                        <img src="/images/facebook.svg" alt="Facebook" class="main-navigation__social-icon">
+                    </a>
+                </li>
+            </ul>
+            <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
+                <img src="/images/menu.svg" alt="Otwórz/zamknij nawigację" class="main-navigation__mobile-button-image">
+            </button>
+        </div>
+    </nav>
+
+    <section class="main-banner">
+        <div class="main-banner__canvas">
+            <div class="calc-container">
+                <div class="calc-container__decription">
+                    <h1 class="calc-container__description-header">Caffeine calculator</h1>
+                    <p class="calc-container__description-paragraph">Thanks to our new tool you can simply check an amount of coffeine in your drink. Feel free to check.</p>
+                    <p class="calc-container__description-paragraph">Remember - if you want to check cappuccino, latte, latte machciatto or other coffee drink, just insert espresso with 25-30 ml. The base for these is usually espresso, milk and other ingredients, which don't contain caffeine.</p>
+                </div>
+                <div class="calc-container__calculator">
+                    <h2>Choose type of drink: </h2>
+                    <section class="calc-container__buttons">
+                        <button class="calc-container__buttons-item" id="espresso">Espresso</button>
+                        <button class="calc-container__buttons-item" id="brewed_coffee">Brewed coffee</button>
+                        <button class="calc-container__buttons-item" id="drip_coffee">Drip coffee</button>
+                        <button class="calc-container__buttons-item" id="black_tea">Black tea</button>
+                        <button class="calc-container__buttons-item" id="green_tea">Green tea</button>
+                        <button class="calc-container__buttons-item" id="yerba">Yerba mate</button>
+                        <button class="calc-container__buttons-item" id="energy">Energy drink</button>
+                    </section>
+                    <section class="calc-container__end">
+                        <div class="calc-container__end-submit">
+                            <h2>Insert amount [ml]:</h2>
+                            <input class="amount">
+                            <button class="select">Select</button>
+                            <div class="alert"></div>
+                        </div>
+                        <div class="calc-container__end-output">
+                            <p>Your drink includes <span class="calc-container__output calc-container__output-caffeine"></span> mg of caffeine.</p>
+                            <p>It's <span class="calc-container__output calc-container__output-percent"></span> of daily max limit (400 mg).</p>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        Copyright by Katarzyna Kowalczyk, 2020r </br>
+        Email: kakowalczyk07@gmail.com </footer>
+
+    <script src="/js/main-navigation.js"></script>
+    <script src="/js/calculator.js"></script>
+</body>
+
+</html>
