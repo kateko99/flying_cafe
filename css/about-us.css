@@ -9,7 +9,7 @@
     text-transform: uppercase;
 }
 
-@media(max-width: 767px) {
+@media(max-width: 799px) {
     .about-us__header {
         font-size: 18px;
     }
@@ -26,7 +26,7 @@
 }
 
 
-@media(max-width: 767px) {
+@media(max-width: 799px) {
     .about-us__image {
         display: none;
     }

@@ -39,6 +39,18 @@ body {
     color: white;
 }
 
+@media(max-width: 799px) {
+    .footer {
+        font-size: 10px;
+    }
+    .photo_adnotation {
+        font-size: 10px;
+    }
+    .photo-link {
+        font-size: 10px;
+    }
+}
+
 #about-us {
     padding-top: 105px;
     margin-top: -105px;

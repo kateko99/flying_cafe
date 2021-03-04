@@ -5,7 +5,7 @@
     margin: auto;
 }
 
-@media(max-width:767px) {
+@media(max-width:799px) {
     .container {
         width: 85%;
     }

@@ -1,12 +1,13 @@
 .main-banner {
     background-image: url("https://cabincoffeecompany.com/wp-content/uploads/2020/08/ccc-beans-19-scaled.jpg");
-    height: 100vh;
+    min-height: 100vh;
     background-position: center center;
     background-size: cover;
 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-repeat: repeat-y;
 }
 
 .main-banner__button {
@@ -32,10 +33,11 @@
     padding: 20px;
     opacity:0.5;
     width: 85%;
-    height: 75vh;
+    min-height: 75vh;
     background-image: linear-gradient( rgb(180,150,112), rgb(207,199,188) 20%, rgb(207,199,188) 80%, rgb(180,150,112));
     border-radius: 10px;
-    margin-top: 10vh;
+    margin-top: 15vh;
+    margin-bottom: 5vh;
     animation-name: canvas-appear;
     animation-duration:1s;
     animation-fill-mode: forwards;
@@ -46,7 +48,7 @@
     width: 80px;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 799px) {
 
     .main-banner__canvas {
         width: 90%;
