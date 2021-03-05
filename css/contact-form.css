@@ -1,24 +1,39 @@
 .main-banner__canvas--contact {
     display: flex;
-    align-items: flex-start;
     justify-content: center;
     margin-left: -30px;
     margin-right: -30px;
+}
+
+@media(max-width: 799px) {
+    .main-banner__canvas--contact {
+        flex-wrap: wrap;
+    }
 }
 
 .contact-header {
     margin-bottom: 30px;
 }
 
-.map {
-    margin-top: 30px;
+@media(max-width: 799px) {
+    .contact-header {
+        text-align: center;
+    }
 }
+
 .address {
     margin-right: 30px;
 }
 
 .contact-form {
     margin-left: 30px;
+}
+
+@media(max-width:799px) {
+    .contact-form {
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 
 .contact-form__info {
@@ -28,10 +43,22 @@
     margin-bottom: 50px;
 }
 
+@media(max-width:799px) {
+    .contact-form__info {
+        flex-wrap: wrap;
+    }
+}
+
 .contact-form__info-item {
     display: flex;
     align-items: center;
     margin: 0 30px;
+}
+
+@media(max-width:799px) {
+    .contact-form__info-item {
+        margin-bottom: 10px;
+    }
 }
 
 .contact-form__info-icon {
@@ -49,6 +76,7 @@
     flex-wrap: wrap;
     margin: -8px;
 }
+
 
 .contact-form__field {
     width: calc(50% - 16px);

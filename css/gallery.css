@@ -10,6 +10,10 @@
     justify-content: center;
 }
 
+.main-banner__canvas-gallery {
+    margin-top: 18vh;
+}
+
 
 @media(max-width: 799px) {
 
@@ -29,7 +33,7 @@
 
 @media(max-width: 799px) {
     .title {
-        font-size: 20px;
+        font-size: 24px;
     }
 }
 
